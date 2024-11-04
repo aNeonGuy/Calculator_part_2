@@ -3,52 +3,57 @@ Calculator as year ago, but better.
 
 Hello, it is a calculator! It can:
 
-- addition
-- substraction
-- multiplication
-- compertition
-- integer division
-- seizure remainder
-- involution
-- the square root of a number
-- alienate from any system calculation indecimal
-- analysing the number An analysation include:
-- displaying the number of digits in quantity
-- even or odd number
-- displaying the sum of the digits of a number
-- checking if a number is prime
-- checking if a number is a square
-- checking if a number is a cube
+- Addition
+- Substraction
+- Multiplication
+- Compertition
+- Integer division
+- Seizure remainder
+- Involution
+- The square root of a number
+- Alienate from any system calculation indecimal
+- Analysing the number
+
+An analysation include:
+- Displaying the number of digits in quantity
+- Even or odd number
+- Displaying the sum of the digits of a number
+- Checking if a number is prime
+- Checking if a number is a square
+- Checking if a number is a cube
 
 The rules:
-- in the number input field, enter only numbers using numbers, not words
-- in the operation or analysis input field, enter the number indicated on the right
-- if you need to enter letters, use capital English letters
-- if you want to continue, write “Yes” without quotation marks in response Now the program is only on russian, but it will - have new versions
+- In the number input field, enter only numbers using numbers, not words
+- In the operation or analysis input field, enter the number indicated on the right
+- If you need to enter letters, use capital English letters
+- If you want to continue, write “Yes” without quotation marks in response Now the program is only on russian, but it will - Have new versions
 
 Привет, это калькулятор ! Он может:
-- сложение
-- вычитание
-- умножение
-- деление
-- целочисленное деление
-- взятие остатка
-- возведение в степень
-- квадратный корень числа
-- переводить из любой системы счисления в десятичную
-- анализ числа В анализ входит:
+- Сложение
+- Вычитание
+- Умножение
+- Деление
+- Целочисленное деление
+- Взятие остатка
+- Возведение в степень
+- Квадратный корень числа
+- Переводить из любой системы счисления в десятичную
+- Анализ числа
+
+В анализ входит:
 - Вывод количества разрядов в числе
 - Вывести сколько каких цифр в есть числе
 - Четное или не четное число
 - Вывод суммы цифр числа
-- проверку является ли число простым
-- проверку ли число полным квадратом
-- проверить, является ли число полным кубом
+- Проверку является ли число простым
+- Проверка на квадрат
+- Проверка на куб
 
 Правила ввода:
-- в поле ввода чисел вводить только числа с помощью цифр, не буквами
-- в поле ввода операции или анализа вводить число указанное справа
-- если нужно ввести буквы, используйте заглавные английские буквы
-- если вы захотите продолжить, в ответ напишите "Да" без ковычек
-- когда хотите посчитать корень, в ответ впишите неотрицательное число
+- В поле ввода чисел вводить только числа с помощью цифр, не буквами
+- В поле ввода операции или анализа вводить число указанное справа
+- Если нужно ввести буквы, используйте заглавные английские буквы
+- Если вы захотите продолжить, в ответ напишите "Да" без ковычек
+- Когда хотите посчитать корень, в ответ впишите неотрицательное число
 - Делить на ноль нельзя!
+- Перевод в десятичную систему работает только до 36 системы
