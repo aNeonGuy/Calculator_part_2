@@ -24,8 +24,8 @@ The rules:
 - in the operation or analysis input field, enter the number indicated on the right
 - if you need to enter letters, use capital English letters
 - if you want to continue, write “Yes” without quotation marks in response Now the program is only on russian, but it will - have new versions
-- Привет, это калькулятор ! Он может:
 
+Привет, это калькулятор ! Он может:
 - сложение
 - вычитание
 - умножение
