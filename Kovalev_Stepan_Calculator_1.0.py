@@ -60,16 +60,78 @@ def square(x):
 
 
 def intergration(x, base):
-    number = str(number)
+    x = str(x)
     base = int(base)
     try:
-        return int(number, base)
+        return int(x, base)
     except ValueError:
         return None
 
 
+def parts(x):
+    part = 1
+    x //= 10
+    while x > 0:
+        x //= 10
+        part += 1
+    return part
+
+
+def even_odd(x):
+    if x % 2 == 0:
+        return 'чётное'
+    return 'нечётное'
+
+
+def sum_parts(x):
+    summ = 0
+    while x != 10:
+        p = x % 10
+        summ += p
+        x //= 10
+        return summ
+
+def simp(x):
+    simple = True
+    k = 2
+    while k < x:
+        if x % k == 0:
+            simple = False
+            break
+        k += 1
+    if simple:
+        return 'простое'
+    return 'сложное'
+
+
+def square(x):
+    k = 0
+    square = False
+    while k < x and not square:
+        if k ** 2 == x:
+            square = True
+            break
+        k += 1
+    if square:
+        return k
+    return None
+
+
+def cube(x):
+    k = 0
+    cubert = False
+    while k < x and not cubert:
+        if k ** 3 == x:
+            cube = True
+            break
+        k += 1
+    if cube:
+        return k
+    return None
+
+
 while answ:
-    num1 = input('Введите первое число: ')
+    num1 = input('Введите первое число: ') #середина/middle
     oper = int(input('Введите номер операции: '))
     while oper == 7 and int(num1) < 0:
         print('Квадратный корень отрицательного числа вычислить нельзя числа! Либо замените число, либо операцию')
@@ -105,56 +167,22 @@ while answ:
         num1 = int(num1)
         anl = int(input('Введите номер анализа: '))
         if anl == 1:
-            x = 1
-            num1 //= 10
-            while num1 > 0:
-                num1 //= 10
-                x += 1
-            print('В числе', x, 'разряда')
+            print('В числе', parts(num1), 'разряда')
         elif anl == 2:
-            if num1 % 2:
-                print(num1, 'чётное')
-            else:
-                print(num1, 'нечётное')
+            print(num1, '-', even_odd(num1))
         elif anl == 3:
-            summ = 0
-            while num1 != 10:
-                p = num1 % 10
-                summ += p
-                num1 //= 10
-            print('Сумма цифр числа равна', summ)
+            print('Сумма цифр числа равна', sum_parts(num1))
         elif anl == 4:
-            simple = True
-            k = 2
-            while k < num1:
-                if num1 % k == 0:
-                    simple = False
-                k += 1
-            if simple:
-                print('Это чилсо простое')
-            else:
-                print('Это число сложное')
+            print('Это число', simp(num1))
         elif anl == 5:
-            k = 0
-            square = False
-            while k < num1 and square != True:
-                if k * k == num1:
-                    square = True
-                k += 1
-            if square:
-                print('Это число является квадратом числа', k)
+            if square(num1) == None:
+                print('Не является квадратом')
             else:
-                print('Это число не является квадратом')
+                print('Это число является квадратом числа', square(num1))
         elif anl == 6:
-            k = 0
-            cube = False
-            while k < num1 and cube != True:
-                if k * k * k == num1:
-                    cube = True
-                k += 1
-            if cube:
-                print('Это число является кубом', k)
+            if cube(num1) == None:
+                print('Не является квадратом')
             else:
-                print('Это число не является кубом числа')
+                print('Это число является кубом', cube(num1))
     answ = input('Хотите ли продолжить? ')
-print('Спасибо за использование калькулятора от Ковалева Степана! Удачи!')
+print('Спасибо за использование калькулятора от Ковалева Степана! Удачи!') #конец/end
