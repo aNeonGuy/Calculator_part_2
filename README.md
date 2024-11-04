@@ -19,6 +19,7 @@ Hello, it is a calculator! It can:
 - checking if a number is prime
 - checking if a number is a square
 - checking if a number is a cube
+
 The rules:
 - in the number input field, enter only numbers using numbers, not words
 - in the operation or analysis input field, enter the number indicated on the right
